@@ -1,0 +1,19 @@
+canvas{
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation1{
+    from{
+        box-shadow: 1px 1px 500px blue;
+    }
+    to{
+        box-shadow: 1px 1px 500px greenyellow;
+    }
+}
+h3{
+    font-size: 40px !important;
+}
+.btn-warning:hover{
+    background-color: red;
+}
